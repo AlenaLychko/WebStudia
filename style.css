@@ -3,10 +3,18 @@
     color: white;
     }
     
-    #button{
+    .button{
         background-color: #2196f3;
         color: white;
     }
     p{
         color: #757575;
+    }
+    .test-link:hover
+   {
+        color: #2196f3;
+    }
+    .link-button:hover{
+      color: white; 
+        background-color: #2196f3;
     }
