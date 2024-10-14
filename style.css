@@ -24,18 +24,25 @@ ul{
     line-height: 1.7;
     font-weight: 700;
    letter-spacing: 3%;
+   margin: 25px 215px;
 }
 .navigation {
 }
 .navigation-list {
 }
+
+
 .nav-item {
+
+   
 }
 .nav-link {
     color: var(--main-color);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.17;
+    
+   
   
 }
 .nav-link:hover,
@@ -48,6 +55,7 @@ ul{
 }
 .first-section {
     background-color: var(--bg-color);
+    padding: 205px 452px;
     
 }
 
@@ -66,12 +74,16 @@ ul{
 .btn {
     color: var(--white-color);
     background-color: var(--axent-color);
-    padding: 12px;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 10px 32px;
+   margin: 0 auto;
     display: block;
     font-family: 'Roboto',sans-serif;
     border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    
     
     
 
@@ -83,6 +95,15 @@ ul{
 }
 .main-pretitle {
 }
+.main-tutu{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.3%;
+    color: var(--grey);
+    margin: 10px 30px;
+    text-align: left;
+}
+
 .main-text {
     font-size: 14px;
     line-height: 1.71;
