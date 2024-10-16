@@ -26,6 +26,12 @@ ul{
    letter-spacing: 3%;
    margin: 25px 215px;
 }
+.blue {
+    color: var(--axent-color);
+}
+.black {
+    color: var(--main-color);
+}
 .navigation {
 }
 .navigation-list {
