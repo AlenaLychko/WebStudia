@@ -10,7 +10,7 @@
     padding: 0 15px;
     margin: 0 auto;
 
-    outline: solid orangered;
+
 
 }
 body{
@@ -105,24 +105,27 @@ ul{
     
 }
 .main-item {
+   margin: 120px;
+
 }
 .main-pretitle {
+   
 }
-.main-tutu{
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.3%;
-    color: var(--grey);
-    margin: 10px 30px;
-    text-align: left;
-}
+
 
 .main-text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.3%;
     color: var(--grey);
+  
 }
+.main-second-item{
+    
+    
+
+}
+
 .main-pretitle{
     font-weight: 700;
     font-size: 14px;
