@@ -95,7 +95,7 @@ ul{
     border-radius: 4px;
     font-size: 16px;
     font-weight: 700;
-    line-height: 1.87;
+    line-height: 1.87; 
     
     
     
@@ -175,7 +175,8 @@ button:focus{
     line-height: 1.62;
     font-weight: 500;
     color: var(--main-color);
-
+    border-radius: 4px;
+   padding: 6px 22px;
 border: none; 
 }
 .portfolio-navigation {
@@ -183,14 +184,22 @@ border: none;
 .portfolio-list {
 }
 .portfolio-item {
+ 
+    
 }
 .portfolio-img {
+    width: 370px;
+    height: 294px;
+
+margin: 34px;
+   
 }
 .portfolio-pretitle {
     font-family: "Roboto",sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height:  2;
+    padding: 20px  25px;
 }
 
 .portfolio-text {
@@ -198,6 +207,8 @@ border: none;
     font-size: 16px;
     line-height:  1.87;
     color: var(--grey);
+    padding-top: 4px;
+  
 }
 .portfolio-podpis {
 }
