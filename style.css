@@ -4,6 +4,7 @@
     --main-color:#212121;
     --grey:#757575;
     --bg-color:#2f303a;
+    --bg-sec-color:#f5f4fa;
 }
 .container{
     width: 1200px;
@@ -103,9 +104,12 @@ ul{
 }
 .main-list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 94px;
 }
 .main-item {
-   
+ 
 
 }
 .main-pretitle {
@@ -142,6 +146,7 @@ ul{
 .third-pic {
 }
 .main-team {
+    background-color: var(--bg-sec-color);
 }
 
 .main-img {
