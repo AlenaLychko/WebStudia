@@ -24,6 +24,10 @@ a{
 ul{
     list-style: none;
 }
+.header{
+    padding-top:32px;
+    padding-bottom: 32px;
+}
 
 .logo {
     font-family: "Raleway",sans-serif;
@@ -49,21 +53,42 @@ ul{
 .navigation {
 }
 .navigation-list {
+    display: flex;
+    justify-content: space-between;
+   
 }
 
 
 .nav-item {
 
+display: flex;
    
 }
+.nav-item:last-child{
+    margin-right: 0;
+}
+
+.nav-sec-item {
+    margin-left: 344px;
+}
+.nav-sec-link {
+}
+
 .nav-link {
     color: var(--main-color);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.17;
+  
+  display: flex;
+ 
     
    
   
+}
+.nav-link:last-child{
+    margin-left: 215px;
+   
 }
 .nav-link:hover,
 .nav-link:focus{
