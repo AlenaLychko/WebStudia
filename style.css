@@ -36,9 +36,15 @@ ul{
 }
 .blue {
     color: var(--axent-color);
+    font-family: 'Raleway',sans-serif;
 }
 .black {
     color: var(--main-color);
+    font-family: 'Raleway',sans-serif;
+}
+.white{
+    color: var(--white-color);
+    font-family: 'Raleway',sans-serif;
 }
 .navigation {
 }
@@ -112,9 +118,7 @@ ul{
  
 
 }
-.main-pretitle {
-   
-}
+
 
 
 .main-text {
@@ -122,6 +126,7 @@ ul{
     line-height: 1.71;
     letter-spacing: 0.3%;
     color: var(--grey);
+    margin-bottom: 124px;
   
 }
 .main-second-item{
@@ -149,6 +154,7 @@ ul{
     background-color: var(--bg-sec-color);
 }
 
+
 .main-img {
 }
 .main-workperson {
@@ -158,6 +164,8 @@ ul{
  
     letter-spacing: 3%;
 }
+
+
 .footer{
     background-color: var(--bg-color);
 }
@@ -165,8 +173,15 @@ ul{
     font-size: 14px;
     line-height: 1.71;
     color: var(--white-color);
+    
+   
+    margin-bottom: 9px;
 }
-
+.optionL:last-child{
+   padding-bottom: 60px;
+}
+.footer-logo{
+}
 /*портфолио */
 button:hover,
 button:focus{
