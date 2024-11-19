@@ -5,6 +5,7 @@
     --grey:#757575;
     --bg-color:#2f303a;
     --bg-sec-color:#f5f4fa;
+    --color:#f5f4fa;
 }
 .container{
     width: 1200px;
@@ -154,7 +155,38 @@ ul{
  
 
 }
+.main-item::before{
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: var(--color);
+  background-image: url(./image/vector-one.jpg);
+  background-repeat: no-repeat;
+  background-position: center,center;
+  background-size: 70px,70px;
+}
+.main-item:nth-child(2)::before{
+   
+  background-image: url(./image/vector-two.jpg);
 
+
+ 
+}
+.main-item:nth-child(3)::before{
+   
+    background-image: url(./image/Vector.jpg);
+  
+  
+   
+  }
+  .main-item:nth-child(4)::before{
+   
+    background-image: url(./image/astronaut\ 1.jpg);
+  
+  
+   
+  }
 
 
 .main-text {
