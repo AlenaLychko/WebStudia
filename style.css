@@ -82,7 +82,7 @@ ul{
  .navigation-list {
      display: flex;
       justify-content: space-between;
-    grid: ;
+    
     }
 
 .nav-item {
@@ -168,28 +168,28 @@ ul{
     width: 270px;
     height: 120px;
     background-color: var(--color);
-  background-image: url(./image/vector-one.jpg);
+  background-image: url(./image/antenna.png);
   background-repeat: no-repeat;
   background-position: center,center;
   background-size: 70px,70px;
 }
 .main-item:nth-child(2)::before{
    
-  background-image: url(./image/vector-two.jpg);
+  background-image: url(./image/clock.png);
 
 
  
 }
 .main-item:nth-child(3)::before{
    
-    background-image: url(./image/Vector.jpg);
+    background-image: url(./image/diagram.png);
   
   
    
   }
   .main-item:nth-child(4)::before{
    
-    background-image: url(./image/astronaut\ 1.jpg);
+    background-image: url(./image/astronaut.png);
   
   
    
