@@ -13,8 +13,14 @@
     margin: 0 auto;
 
 
-
+ 
 }
+
+ p,h1,h2,h3,h4,form,input,label,button,ul,li{
+    margin: 0;
+    padding: 0;
+ }
+
 body{
     font-family: "Roboto", sans-serif;
     
@@ -54,10 +60,18 @@ ul{
     font-family: 'Raleway',sans-serif;
 }
 .navigation {
+    display: flex;
+    align-items: center;
 }
 
-   
-
+   .header-wrap{
+    display: flex;
+    align-items: center;
+   }
+.address-list{
+    display: flex;
+    gap: 30px;
+}
 .option-list{
    
     display: flex;
