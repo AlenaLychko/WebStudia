@@ -286,8 +286,10 @@ button:focus{
 }
 .button-list{
     display: flex;
-    flex-wrap: wrap;
-   margin: 0 auto;
+ justify-content: center;
+
+  
+  
 }
 .button{
     font-family: "Roboto",sans-serif;
@@ -298,7 +300,8 @@ button:focus{
     border-radius: 4px;
    padding: 6px 22px;
 border: none; 
-margin-right: 2px;
+
+
 
 
 
