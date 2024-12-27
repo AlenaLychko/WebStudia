@@ -43,6 +43,7 @@ ul{
     line-height: 1.7;
     font-weight: 700;
    letter-spacing: 3%;
+   margin-right: 93px;
   
    
  
@@ -100,7 +101,7 @@ ul{
     }
 
 .nav-item {
-    margin-right: 20px;
+    margin-right: 50px;
 
 
    
@@ -128,6 +129,7 @@ ul{
 .main {
 }
 .first-section {
+
     background-color: var(--bg-color);
     padding: 205px 452px;
     
