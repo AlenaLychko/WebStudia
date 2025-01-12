@@ -287,7 +287,27 @@ box-shadow: 0px 1px 3px 0px #0000001F;
     
 }
 
-
+.clients {
+}
+.container {
+}
+.regular {
+    display: flex;
+    justify-content: center;
+}
+.regular-item {
+}
+.regular-text {
+}
+.regural-list-icon{
+    
+}
+.regural-icon {
+ width: 41px;
+ height: 41px;
+}
+.regular-icon-item {
+}
 .footer{
     background-color: var(--bg-color);
 }
