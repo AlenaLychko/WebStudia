@@ -130,6 +130,24 @@ ul{
     display: flex;
     
 }
+.envelope{
+     margin-right: 10px;
+}
+.envelope:nth-child(1){
+  width: 16px;
+  height: 12px;
+ 
+}
+.envelope:nth-child(2){
+  width: 12px;
+  height: 16px;
+
+}
+.envelope:hover,
+.envelope:focus{
+    color: var(--axent-color);
+
+}
 .main {
 }
 .first-section {
@@ -233,6 +251,12 @@ ul{
     margin-right: 10px;
    
 }
+.icon-team:hover,
+.icon-team:focus{
+    color:#2196F3;
+    border-radius: 50%;
+}
+
 .papa{
     display: flex;
     justify-content: space-between;
