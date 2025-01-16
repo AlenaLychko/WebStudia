@@ -34,7 +34,11 @@ ul{
 .header{
     padding-top:32px;
     padding-bottom: 32px;
-}
+} 
+ .header-wrap{
+    display: flex;
+    align-items: center;
+   }
 
 .logo {
     font-family: "Raleway",sans-serif;
@@ -64,49 +68,25 @@ ul{
     display: flex;
     align-items: center;
 }
-
-   .header-wrap{
-    display: flex;
-    align-items: center;
-   }
-.address-list{
-    display: flex;
-    gap: 30px;
-}
-.option-list{
-   
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-    margin-right: 30px;
-
-}
-.option-list:last-child{
-    margin-right: 0;
-}
-.third-pic{
-    width: 370px;
-    
-}
-
-.third-pic:last-child{
-
-}
-
  .navigation-list {
      display: flex;
       justify-content: space-between;
    
     }
-
-.nav-item {
+    .nav-item {
     margin-right: 50px;
    
 }
-.main-pretitle{
-      margin-top: 30px;
+
+.address-list{
+    display: flex;
+    gap: 30px;
 }
+.info-item{
+    display: flex;
+    
+}
+
 .nav-item:last-child{
     margin-right: 0;
 }
@@ -126,10 +106,6 @@ ul{
     color: var(--axent-color);
 
 }
-.info-item{
-    display: flex;
-    
-}
 .envelope{
      margin-right: 10px;
 }
@@ -148,15 +124,12 @@ ul{
     color: var(--axent-color);
 
 }
-.main {
-}
 .first-section {
 
     background-color: var(--bg-color);
     padding: 205px 452px;
     
 }
-
 
 .title {
     font-size: 44px;
@@ -169,7 +142,7 @@ ul{
   
     
 }
-.btn {
+ .btn {
     color: var(--white-color);
     background-color: var(--axent-color);
     padding: 10px 32px;
@@ -182,11 +155,7 @@ ul{
     font-weight: 700;
     line-height: 1.87; 
     margin-bottom: 34px;
-   
-    
-    
-    
-    
+
 
 }
 .main-list {
@@ -197,10 +166,7 @@ ul{
   padding-top: 50px;
 
 }
-.main-item {
- 
 
-}
 .main-item::before{
     content: "";
     display: block;
@@ -233,18 +199,55 @@ ul{
   
    
   }
-
+  
+  .main-pretitle{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+      margin-top: 30px;
+}
 
 .main-text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.3%;
     color: var(--grey);
-    
-    
-   
-  
+
 }
+
+.main-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 3%;
+    margin-top: 94px;
+    margin-bottom: 50px;
+
+}
+
+.option-list{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-right: 30px;
+
+}
+.option-list:last-child{
+    margin-right: 0;
+}
+.third-pic{
+    width: 370px;
+    
+}
+
+.main-team {
+    background-color: var(--bg-sec-color);
+}
+
 .icon-team{
     width: 20px;
     height: 20px;
@@ -263,34 +266,6 @@ ul{
     align-items: center;
 
 }
-.main-second-item{
-    
-    
-
-}
-
-.main-pretitle{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 3%;
-}
-.main-title {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 3%;
-    margin-top: 94px;
-    margin-bottom: 50px;
-
-}
-.third-pic {
-}
-.main-team {
-    background-color: var(--bg-sec-color);
-}
-
 .item{
     box-shadow: 0px 2px 1px 0px #00000033;
 
@@ -301,23 +276,19 @@ box-shadow: 0px 1px 3px 0px #0000001F;
  justify-content: space-between;
  margin-right: 20px;    
 }
-.main-img {
-}
+
 .main-workperson {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.17;
  padding-top: 30px;
  padding-bottom: 10px;
-
     letter-spacing: 3%;
     
 }
 
-.clients {
-}
-.container {
-}
+
+
 .regular {
     display: flex;
     justify-content: center;
@@ -335,26 +306,28 @@ justify-items: center;
      width: 45px;
  height: 45px;
 }
-.regular-icon-item {
-}
+
 .footer{
     background-color: var(--bg-color);
+}
+.footer-content{
+    display: flex;
+    align-items: center;
 }
 .footer-logo{
     font-family: "Raleway";
 font-size: 26px;
 font-weight: 700;
 line-height: 1.17;
-
       text-decoration: none;
   margin-bottom: 20px;
 }
 .address{
      display: flex;
   flex-direction: column; 
-  align-items: center; 
+
 }
-.address-list{
+.address-footer-list{
     gap: 30px;
     display: inline-block;
 }
@@ -383,8 +356,7 @@ line-height: 1.17;
 
 }
 .join-list{
-    display: flex;
-    justify-content: center;
+display: flex;
 }
 .join-icon{
     width: 20px;
