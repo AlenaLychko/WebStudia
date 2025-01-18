@@ -6,6 +6,7 @@
     --bg-color:#2f303a;
     --bg-sec-color:#f5f4fa;
     --color:#f5f4fa;
+    --border-color:#afb1b8;
 }
 .container{
     width: 1200px;
@@ -165,6 +166,7 @@ ul{
     justify-content: space-between;
  padding-bottom: 94px;
   padding-top: 50px;
+  border-radius: 4px;
 
 }
 
@@ -253,6 +255,8 @@ ul{
     width: 20px;
     height: 20px;
     margin-right: 10px;
+    margin-top: 16px;
+    margin-bottom: 42px;
    
 }
 .icon-team:hover,
@@ -268,11 +272,13 @@ ul{
 
 }
 .item{
-    box-shadow: 0px 2px 1px 0px #00000033;
+ box-shadow: 0px 2px 1px 0px #00000033;
 
 box-shadow: 0px 1px 1px 0px #00000024;
 
 box-shadow: 0px 1px 3px 0px #0000001F;
+
+
  justify-items: center;
  justify-content: space-between;
  margin-right: 20px;    
@@ -306,14 +312,27 @@ line-height: 1.17;
 
 }
 .regural-list-icon{
+  
 display: flex;
-justify-content: space-between;
-align-items: center;
+padding: 0;
+margin: 0;
+}
+.regular-icon-item{
+    display: flex;
 
 }
-.regular-icon {
-     width: 40px;
- height: 52px;
+.regular-icon {  
+width: 170px;
+height: 92px;
+ margin-right: 30px;
+ 
+  margin-bottom: 94px;
+ border: 1px solid var(--border-color); /* Рамка вокруг иконки */
+  padding: 19px;      /* Отступ между изображением и рамкой */
+  border-radius: 4px; /* Скругление углов рамки */
+}
+.regular-icon:last-child {
+  margin-right: 0; /* Убираем отступ у последней иконки */
 }
 
 .footer{
