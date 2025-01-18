@@ -203,7 +203,7 @@ ul{
   
    
   }
-  
+
   .main-pretitle{
     font-weight: 700;
     font-size: 14px;
@@ -260,11 +260,7 @@ ul{
     margin-bottom: 42px;
    
 }
-.icon-team:hover,
-.icon-team:focus{
-    color:#2196F3;
-    border-radius: 50%;
-}
+
 
 .papa{
     display: flex;
@@ -407,12 +403,14 @@ line-height: 1.17;
 .join-item{
     display: inline-block;
     color: wheat;
-    
 }
 
 .join-icon{
     width: 20px;
     height: 20px;
+
+
+  
 }
 
 /*портфолио */
