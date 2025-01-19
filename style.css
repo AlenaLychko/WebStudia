@@ -404,15 +404,17 @@ line-height: 1.17;
     display: inline-block;
     color: wheat;
 }
-
+.join-link:hover{
+    fill: #2196f3;
+}
 .join-icon{
     width: 20px;
     height: 20px;
-
-
-  
+    
 }
-
+.join-icon:hover{
+    fill: #2196f3;
+}
 /*портфолио */
 button:hover,
 button:focus{
