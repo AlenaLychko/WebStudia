@@ -467,12 +467,20 @@ line-height: 1.17;
 .join-icon{
     width: 20px;
     height: 20px;
+   
     
 }
-.join-link{
+.join-link{ 
+    padding-top: 12px;
+    padding-bottom: 12px;
     fill: #fff;
 }
 .join-link:hover{
+    padding-top: 12px;
+    padding-bottom: 12px;
+   padding-left: 12px;
+   padding-right: 12px;
+    border-radius: 100%;
     fill: #fff;
     background-color: #2196f3;
 
