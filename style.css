@@ -389,7 +389,8 @@ height: 92px;
 }
 .regular-icon:hover,
 .regular-icon:focus{
-    color: #2196f3;
+   border: 1px solid var(--axent-color);
+
 }
 .regular-link{
     fill: #afb1b8;
@@ -398,6 +399,9 @@ height: 92px;
  fill: #2196f3;
 }
 
+.border:hover{
+    color: #2196f3;
+}
 .footer{
     background-color: var(--bg-color);
 }
