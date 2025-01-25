@@ -245,14 +245,23 @@ ul{
 
 }
 .item-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     fill: var(--border-color);
+    padding: 15px;
+    background-color: aqua;
+   border-radius: 50%;
 }
 .item-link:hover{
   fill: #fff;
   background-color: #2196f3;
  
 }
-
+.team-social-list{
+    display: flex;
+    gap: 10px;
+}
 .option-list{
    
     display: flex;
@@ -305,19 +314,11 @@ padding-bottom: 24px;
 .icon-team{
     width: 20px;
     height: 20px;
-    margin-right: 10px;
-    margin-top: 16px;
-    margin-bottom: 42px;
+   
    
 }
 
 
-.papa{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
 .item{
  box-shadow: 0px 2px 1px 0px #00000033;
 
