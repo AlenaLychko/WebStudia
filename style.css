@@ -387,15 +387,12 @@ height: 92px;
 .regular-icon-item{
     margin-right: 30px;
 }
-.regular-icon:hover,
-.regular-icon:focus{
-   border: 1px solid var(--axent-color);
 
-}
 .regular-link{
     fill: #afb1b8;
 }
-.regular-link:hover{
+.regular-link:hover{ 
+    border: 1px solid var(--axent-color);
  fill: #2196f3;
 }
 
