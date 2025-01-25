@@ -420,7 +420,7 @@ line-height: 1.17;
 }
 
 .address-left{
-    flex:1;
+    display: flex;
 }
 .address-right{
      flex: 1;
