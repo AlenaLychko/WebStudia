@@ -536,6 +536,11 @@ line-height: 1.17;
 color: #fff;
 
 }
+.form-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
 .form-inuts{
      display: flex;
     flex-direction: column;
