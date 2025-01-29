@@ -175,6 +175,24 @@ ul{
 
 
 }
+
+
+.form-wrap {
+    display: flex;
+}
+.form-inputs {
+      margin-right: 27px;
+    display: flex;
+    flex-direction: column;
+}
+.placeholder {
+}
+.form-inp {
+}
+.form-text {
+}
+.checkbox {
+}
 .main-list {
     display: flex;
     flex-wrap: wrap;
