@@ -447,6 +447,7 @@ line-height: 1.17;
       text-decoration: none;
   margin-bottom: 20px;
   margin-top: 60px;
+  margin-right: 156px;
 }
 
 .address-left{
@@ -457,7 +458,9 @@ line-height: 1.17;
      display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  margin-top: 72px;
+  
+
 }
 .address{
      display: flex;
@@ -467,6 +470,7 @@ line-height: 1.17;
 .address-footer-list{
     gap: 30px;
     display: inline-block;
+    margin-bottom: 60px;
 }
 
 .address-item{
@@ -490,19 +494,18 @@ line-height: 1.17;
     list-style: none;
   padding: 0;
   margin: 0;
-  justify-content: flex-end;
 display: flex;
-flex-direction: row;
-margin-left: 70px;
-margin-top: 20px;
+
+
 }
 .join{
-    margin-right: 70px;
     color: var(--white-color);
     font-family: "Roboto";
 font-size: 14px;
 font-weight: 700;
 line-height: 1.17;
+margin-bottom: 20px;
+
 
 }
 .join-item{ 
@@ -541,7 +544,64 @@ background: #FFFFFF1A;
     background-color: #2196f3;
 
 }
+.telegram {
+    flex: 1;
+    margin-left: 70px;
+    margin-bottom: 94px;
+}
 
+.substract {
+    margin-top: 72px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.form-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.form-inputs {
+    margin-right: 12px;
+}
+
+.form-inp {
+    width: 358px;
+    height: 50px;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: transparent;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.form-inp::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-telegram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-telegram:hover {
+    background-color: #188CE8;
+}
 /*портфолио */
 button:hover,
 button:focus{
