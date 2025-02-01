@@ -74,44 +74,42 @@
           <button class="btn btn-open" type="button" data-modal-open>Замовити послугу</button>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
+         
             <button class="btn-close" data-modal-close>X</button>
-        <form class="form" action="">
-  <div class="form-wrap">
-  <div class="form-inputs">
-    <p class="placeholder">Ім'я</p>
-  <input class="form-inp" 
-  type="text" 
-  name="text" 
-  id=""
-  >
-<p class="placeholder">Телефон</p>
-  <input class="form-inp" 
-  type="text" 
-  name="text" 
-  id="" >
-  <p class="placeholder">Пошта</p>
-  <input class="form-inp" 
-  type="email" 
-  name="text" 
-  id="" 
->
-
-</div>
-<p class="placeholder">Коментар</p>
- <textarea class="form-text" 
- type="submit" 
- id=""
-  placeholder="Введіть текст">
-</textarea>
-<input type="checkbox"
- class="checkbox">
- <p>Погоджуюся з розсилкою та приймаю <a  class="" href="./"> Умови договору</a></p>
-<button type="submit">Відправити</button>
-</div>
-        </form>
-          </div>
-        </div>
+      <form class="form" action="">
+      <h3 class="leave">Залиште свої дані, ми вам передзвонимо</h3>
+      <div class="form-wrap">
+    <div class="form-inputs"> 
+      <p class="placeholder">Ім'я</p>
+      <div class="input-group">
+       
+        <input class="form-inp" type="text" name="name" id="">
+      </div> 
+       <p class="placeholder">Телефон</p>
+      <div class="input-group">
+      
+        <input class="form-inp" type="text" name="phone" id="">
+      </div>  
+        <p class="placeholder">Пошта</p>
+      <div class="input-group">
+    
+        <input class="form-inp" type="email" name="email" id="">
       </div>
+    
+
+
+<p class="placeholder">Коментар</p>
+      <textarea class="textarea" id="" placeholder="Введіть текст" ></textarea>
+   </div>
+
+    <div class="checkbox-group">
+      <input type="checkbox" class="checkbox" id="agree">
+      <label for="agree" class="agree">Погоджуюся з розсилкою та приймаю <a class="terms-link" href="./">Умови договору</a></label>
+    </div>
+
+    <button type="submit" class="submit-btn">Відправити</button>
+  </div>
+</form>
       </section>
 
       <section class="main-section">

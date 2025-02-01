@@ -175,25 +175,126 @@ ul{
 
 
 }
+.leave{
+    font-family: 'Roboto';
+font-size: 20px;
+font-weight: 700;
+line-height: 1.17;
 
+display: flex;
+justify-content: center;
+
+}
+ 
+
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 .form-wrap {
     display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-.form-inputs {
-      margin-right: 27px;
+
+.input-group {
     display: flex;
     flex-direction: column;
+    gap: 5px;
+    border: 1px solid #21212133;
+width: 448px;
+height: 40px;
+margin-bottom: 10px;
 }
+
 .placeholder {
+
+    font-family: "Roboto";
+font-size: 12px;
+font-weight: 400;
+line-height: 1.12;
+color: var(--grey);
+
 }
-.form-inp {
+
+.form-inp, .form-text {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+
+.textarea {
+    font-family: 'Roboto';
+font-size: 12px;
+font-weight: 400;
+line-height: 1.17;
+color: var(--grey);
+  width: 448px; 
+  height: 120px; 
+  resize: none; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  outline: none; 
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox {
+    width: 16px;
+    height: 16px;
+}
+
+.terms-link {
+    color: #2196F3;
+  text-decoration: underline;
+}
+
+.terms-link:hover {
+    text-decoration: underline;
+}
+
+.submit-btn {
+    font-family: 'Roboto';
+font-size: 16px;
+font-weight: 700;
+line-height: 1.87;
+
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 52px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
    
 }
-.form-text {
+.agree{
+    font-family: 'Roboto';
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71;
+color: var(--grey);
+
 }
-.checkbox {
+
+.submit-btn:hover {
+box-shadow: 0px 4px 4px 0px #00000026;
+
 }
+
 .main-list {
     display: flex;
     flex-wrap: wrap;
@@ -544,7 +645,7 @@ background: #FFFFFF1A;
 
 }
 .telegram {
-    flex: 1;
+
     margin-left: 70px;
     margin-bottom: 94px;
 }
