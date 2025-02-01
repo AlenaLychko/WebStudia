@@ -541,50 +541,7 @@ background: #FFFFFF1A;
     background-color: #2196f3;
 
 }
-.telegram{
-   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-.substract{
-    font-family: "Roboto";
-font-size: 14px;
-font-weight: 700;
-line-height: 1.17;
-color: #fff;
 
-}
-.form-wrap{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
- }
-.form-inuts{
-     display: flex;
-    flex-direction: column;
-}
-.form-btn{
-    display: flex;
-   
-
-}
-.form-inp{
- font-family: "Roboto";
-color: #FFFFFF99;
-background: #2F303A;
-border: 1px solid #fff;
-box-shadow: 0px 4px 4px 0px #00000026;
-
-border-radius: 4px;
-padding-right: 295px;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.25;
-padding-top: 15px;
-padding-bottom: 15px;
-padding-left: 16px;
-}
 /*портфолио */
 button:hover,
 button:focus{
@@ -598,23 +555,12 @@ button:focus{
   
   
 }
-.button{
-    font-family: "Roboto",sans-serif;
-    font-size: 16px;
-    line-height: 1.62;
-    font-weight: 500;
-    color: var(--main-color);
-    border-radius: 4px;
-   padding: 6px 22px;
-border: none; 
-margin-left: 8px;
-margin-bottom: 50px;
 
 
 
 
 
-}
+
 
 .portfolio-navigation {
  
