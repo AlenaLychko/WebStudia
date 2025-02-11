@@ -157,11 +157,12 @@ background-color: var(--axent-color);
 .first-section {
 
     background-color: var(--bg-color);
-    padding: 205px 452px;
+    padding: 205px ;
     
 }
 
 .title {
+    font-family: 'Roboto';
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
