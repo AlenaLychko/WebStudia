@@ -28,7 +28,7 @@ body{
 }
 a{
     text-decoration: none;
-    transition: color 0.2s ease;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 ul{
     list-style: none;
@@ -100,7 +100,8 @@ ul{
     font-weight: 500;
     line-height: 1.17;
   text-decoration: uppercase;
-position: relative;
+position: relative;  
+  
 }
 .nav-link:hover::after{
     content: "";   
@@ -111,6 +112,7 @@ position: relative;
 background-color: var(--axent-color);
     margin-top: 32px;
     position: absolute;
+
 }
 .nav-item:nth-child(3){
     margin-right: 318px;
@@ -391,7 +393,7 @@ box-shadow: 0px 4px 4px 0px #00000026;
 
 }
 .item-link{
-    transition: background-color  0.3s ease;
+    transition: background-color   250ms cubic-bezier(0.4, 0, 0.2, 1);;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -544,7 +546,8 @@ height: 92px;
 
 .regular-link{
     fill: #afb1b8;
-   transition: border-color 0.3s ease, color 0.3s ease;
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
     
 }
 .regular-link:hover{ 
@@ -755,7 +758,7 @@ border-radius: 4px;
 padding: 6px 22px;
 margin-right: 6px;
 margin-bottom: 48px;
-transition: background-color  0.3s ease;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 button:hover,
@@ -781,7 +784,8 @@ button:focus{
  
 }
 .border{
-    border: 1px solid #ECECEC
+    border: 1px solid #ECECEC;
+    margin-top: 20px;
 }
 .portfolio-list {
     display: flex;
@@ -865,29 +869,30 @@ box-shadow: 0px 1px 1px 0px #0000001F;
     height: 294px;
   overflow: hidden;
 }
-.overlay{
-    display: flex;
-    align-items: center;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 63px;
-    padding-bottom: 63px;
-width: 100%;
-height: 100%;
-background: #2196F3E5;
- transform: translateY(-100%);
- font-family: 'Roboto';
-font-size: 18px;
-font-weight: 400;
-line-height: 1.5;
-color: var(--white-color);
-
-
- 
-
-position: absolute;
-
+.box {
+  position: relative; /* чтобы overlay позиционировался относительно box */
+  overflow: hidden; /* чтобы overlay не выходил за пределы box */
 }
-.box:hover .overlay{
-  transform: translateX(0%);
+
+.overlay {
+  display: flex;
+  align-items: center;
+  padding: 63px 24px; /* объединённые padding */
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 150, 243, 0.9); /* синий цвет с прозрачностью */
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--white-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; /* начальная прозрачность (невидимый) */
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.box:hover .overlay {
+  opacity: 1; /* конечная прозрачность (полностью видимый) */
 }
