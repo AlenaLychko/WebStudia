@@ -485,7 +485,7 @@ ul {
   border: 1px solid var(--border-color);
   padding: 16px 32px;
   border-radius: 4px;
-
+  margin-right: 30px;
   
 }
 .regular-link:hover {
@@ -592,7 +592,7 @@ ul {
 }
 .telegram {
   margin-left: 70px;
-  margin-bottom: 94px;
+
 }
 
 .substract {
