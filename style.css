@@ -150,7 +150,9 @@ ul {
 }
 
 .first-section {
-  background-color: var(--bg-color);
+
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(./image/Img.svg);
+ 
   padding: 205px;
 }
 
@@ -160,7 +162,7 @@ ul {
   font-weight: 900;
   line-height: 1.36;
   color: var(--white-color);
-  background-color: var(--bg-color);
+  
   justify-content: center;
   padding: 69px 120px;
 }
