@@ -152,8 +152,10 @@ ul {
 .first-section {
 
   background-image: radial-gradient(circle, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(./image/Img.svg);
- 
-  padding: 205px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 250px 0px;
 }
 
 .title {
@@ -162,7 +164,6 @@ ul {
   font-weight: 900;
   line-height: 1.36;
   color: var(--white-color);
-  
   justify-content: center;
   padding: 69px 120px;
 }
@@ -178,7 +179,8 @@ ul {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
-  margin-bottom: 34px;
+
+
 }
 .leave {
   font-family: "Roboto";
