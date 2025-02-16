@@ -195,11 +195,7 @@ ul {
   border-radius: 4px;
 }
 
-.form-wrap {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+
 
 .input-group {
   display: flex;
