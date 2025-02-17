@@ -92,22 +92,28 @@
       </div>
       <p class="placeholder">Пошта</p>
       <div class="input-group">
-        <a href="modal-link"><svg class="modal-svg"><use href="./image/symbol-defs.svg#icon-modalinvelope"></use></svg></a>
-        <input class="form-inp" type="email" name="email">
-      </div>
-      <p class="placeholder">Коментар</p>
-      <textarea class="textarea" placeholder="Введіть текст"></textarea>
-    </div>
+    <a href="modal-link">
+        <svg class="modal-svg">
+            <use href="./image/symbol-defs.svg#icon-modalinvelope"></use>
+        </svg>
+    </a>
+    <input class="form-inp" type="email" name="email">
+</div>
 
+<p class="placeholder">Коментар</p>
+<textarea class="textarea" placeholder="Введіть текст"></textarea>
 
-    <div class="form-footer">
-      <div class="checkbox-group">
-        <input type="checkbox" class="checkbox" id="agree">
-        <label for="agree" class="agree">Погоджуюся з розсилкою та приймаю <a class="terms-link" href="./">Умови договору</a></label>
-      </div>
-      <button type="submit" class="submit-btn">Відправити</button>
-    </div>
-  </div>
+<!-- Чекбокс и текст теперь под комментарием -->
+<div class="checkbox-group">
+    <input type="checkbox" class="checkbox" id="agree">
+    <label for="agree" class="agree">
+        Погоджуюся з розсилкою та приймаю 
+        <a class="terms-link" href="./">Умови договору</a>
+    </label>
+</div>
+
+<!-- Кнопка теперь под чекбоксом -->
+<button type="submit" class="submit-btn">Відправити</button>
 </form>
       </section>
 
