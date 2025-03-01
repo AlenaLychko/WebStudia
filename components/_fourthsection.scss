@@ -1,0 +1,49 @@
+.regular {
+  display: flex;
+  justify-content: center;
+}
+
+.regular-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 94px;
+  padding-bottom: 50px;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+.regural-list-icon {
+  margin-bottom: 94px;
+  display: flex;
+}
+.regular-icon-item {
+  display: flex;
+}
+
+.regular-icon {
+  width: 106px;
+  height: 60px;
+}
+.regular-icon:last-child {
+  margin-right: 0;
+}
+.regular-icon-item {
+  margin-right: 30px;
+}
+
+.regular-link {
+  fill: #afb1b8;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid var(--border-color);
+  padding: 16px 32px;
+  border-radius: 4px;
+  margin-right: 30px;
+}
+.regular-link:hover {
+  fill: #2196f3;
+  border-color: var(--axent-color);
+}
