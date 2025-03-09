@@ -323,20 +323,22 @@ ul {
 }
 
 .first-section {
-  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(./image/Img.svg);
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(../image/Img.png);
   background-position: center;
   background-repeat: no-repeat;
-  padding: 250px 0px;
+  padding: 200px 0px;
 }
 
 .title {
   font-family: "Roboto";
+  margin: 0 auto;
+  margin-bottom: 30px;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   color: var(--white-color);
-  justify-content: center;
-  padding: 69px 120px;
+  text-align: center;
+  width: 696px;
 }
 
 .btn {
