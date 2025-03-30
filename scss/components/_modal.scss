@@ -43,7 +43,7 @@ border: 1px solid gray;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.12;
-  color: var(--grey);
+  color: $grey-color;
 }
 
 .form-inp,
@@ -58,7 +58,7 @@ border: 1px solid gray;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17;
-  color: var(--grey);
+  color: $grey-color;
   width: 448px;
   height: 120px;
   resize: none;
@@ -76,7 +76,7 @@ border: 1px solid gray;
 }
 
 .terms-link {
-  color: #2196f3;
+  color: $axent-color;
   text-decoration: underline;
 }
 
@@ -101,7 +101,7 @@ border: 1px solid gray;
   margin: 0 auto;
 
     margin-top: 30px;
-   background-color: #188ce8;
+   background-color: $axent-color;
     color: white;
     border: none;
     border-radius: 4px;
@@ -113,7 +113,7 @@ border: 1px solid gray;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
-  color: var(--grey);
+  color: $grey-color;
 }
 
 .submit-btn:hover {

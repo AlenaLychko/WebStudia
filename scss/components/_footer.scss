@@ -1,6 +1,6 @@
 .footer { 
   justify-content: space-between;
-  background-color: var(--bg-color);
+  background-color: $bg-color;
 }
 .footer-content {
   display: flex;
@@ -41,16 +41,16 @@
   display: flex;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--white-color);
+  color: $white-color;
   margin-bottom: 9px;
 
   margin-bottom: 9px;
 }
 .address-item:nth-child(2) {
-  color: var(--grey);
+  color: $grey-color;
 }
 .address-item:nth-child(3) {
-  color: var(--grey);
+  color:  $grey-color;
 }
 
 .join-list {
@@ -60,7 +60,7 @@
   display: flex;
 }
 .join {
-  color: var(--white-color);
+  color: $white-color;
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 700;
@@ -93,7 +93,7 @@
   padding-right: 12px;
   border-radius: 100%;
   fill: #fff;
-  background-color: #2196f3;
+  background-color:$axent-color;
 }
 .telegram {
   margin-left: 70px;
@@ -139,7 +139,7 @@
   justify-content: center;
   width: 200px;
   height: 50px;
-  background-color: #2196f3;
+  background-color: $axent-color;
   color: #ffffff;
   font-size: 16px;
   font-weight: 700;
@@ -154,5 +154,5 @@
 }
 
 .btn-telegram:hover {
-  background-color: #188ce8;
+  background-color: $axent-color;
 }
