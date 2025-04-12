@@ -1,7 +1,46 @@
-.main-team {
-  background-color:$bg-sec-color;
+img {
+  width: 100%;
+  height: 100%;
 }
+.main-team {
+  padding: 60px 0;
+  @media (min-width: 1200px) {
+    padding: 94px 0;
+  }
+  background-color: $bg-sec-color;
+}
+.main-title-team {
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 3%;
+  margin-top: 94px;
+  margin-bottom: 30px;
+  font-size: 28px;
 
+  @media (min-width: 1200px) {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+}
+.main-list-team {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 94px;
+  padding-top: 50px;
+  border-radius: 4px;
+
+  @media (min-width: 768px) and (max-width: 1999px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  @media (min-width: 1200px) {
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+}
 .icon-team {
   width: 20px;
   height: 20px;
@@ -17,6 +56,13 @@
   justify-items: center;
   justify-content: space-between;
   margin-right: 20px;
+
+  @media (min-width: 768px) and (max-width: 1999px) {
+    width: 354px;
+  }
+  @media (min-width: 1200px) {
+    width: 270px;
+  }
 }
 
 .main-workperson {
