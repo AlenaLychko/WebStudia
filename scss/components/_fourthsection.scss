@@ -1,6 +1,8 @@
 .regular {
-display: flex;
-
+  display: flex;
+ @media (min-width: 768px) and (max-width: 1999px){
+  display: flex;
+ }
   &__text {
     display: flex;
     align-items: center;
@@ -12,10 +14,17 @@ display: flex;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.17;
+    @media (min-width: 768px) and (max-width: 1999px){
+      font-size: 28px;
+      padding-bottom: 30px;
+      padding-top: 60px;
+    }
+    
   }
   &__list {
-  display: flex;
-  margin-bottom: 94px;
+    display: flex;
+    margin-bottom: 94px;
+
   }
   &__item {
     display: flex;

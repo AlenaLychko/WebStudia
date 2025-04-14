@@ -1,11 +1,11 @@
-.main-team {
+.team {
   padding: 60px 0;
   @media (min-width: 1200px) {
     padding: 94px 0;
   }
   background-color: $bg-sec-color;
 }
-.main.img {
+.img-team {
   width: 450px;
   height: 460px;
   @media (min-width: 768px) and (max-width: 1999px) {
@@ -17,13 +17,12 @@
     height: 260px;
   }
 }
-.main-title-team {
+.team {
   font-weight: 700;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 3%;
-  margin-top: 94px;
-  margin-bottom: 30px;
+
   font-size: 28px;
 
   @media (min-width: 1200px) {
@@ -31,13 +30,11 @@
     margin-bottom: 50px;
   }
 }
-.main-list-team {
+.list-team {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 94px;
-  padding-top: 50px;
   border-radius: 4px;
 
   @media (min-width: 768px) and (max-width: 1999px) {
@@ -48,6 +45,14 @@
     flex-wrap: nowrap;
     flex-direction: row;
   }
+}
+.item-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 3%;
+  text-align: center;
+  color: #757575;
 }
 .icon-team {
   width: 20px;
@@ -73,7 +78,7 @@
   }
 }
 
-.main-workperson {
+.workperson {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.17;

@@ -9,6 +9,8 @@
   background-position: center;
   background-repeat: no-repeat;
   padding: 200px 0px;
+
+ 
 }
 
 .title {
@@ -21,6 +23,10 @@
   color: $white-color;
   text-align: center;
   width: 696px;
+  @media (min-width: 768px) and (max-width: 1999px) {
+   font-size: 26px;
+  }
+
 }
 .btn {
   color: $white-color;
@@ -36,16 +42,24 @@
   line-height: 1.87;
 }
 
-.main-list {
+.аdvantages-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding-bottom: 94px;
   padding-top: 50px;
   border-radius: 4px;
+    @media (min-width: 768px) and (max-width: 1999px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  @media (min-width: 1200px) {
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
 }
 
-.main-item::before {
+.аdvantages-item::before {
   content: "";
   display: block;
   width: 270px;
@@ -56,25 +70,26 @@
   background-position: center, center;
   background-size: 70px, 70px;
 }
-.main-item:nth-child(2)::before {
+.аdvantages-item:nth-child(2)::before {
   background-image: url(../image/clock.png);
 }
-.main-item:nth-child(3)::before {
+.аdvantages-item:nth-child(3)::before {
   background-image: url(../image/diagram.png);
 }
-.main-item:nth-child(4)::before {
+.аdvantages-item:nth-child(4)::before {
   background-image: url(../image/astronaut.png);
 }
 
-.main-pretitle {
+.аdvantages-pretitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 3%;
   margin-top: 30px;
+
 }
 
-.main-text {
+.аdvantages-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.3%;
