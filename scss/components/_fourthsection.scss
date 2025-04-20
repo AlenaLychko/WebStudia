@@ -22,13 +22,15 @@
     
   }
   &__list {
+    flex-wrap: wrap;
     display: flex;
     margin-bottom: 94px;
 
   }
   &__item {
     display: flex;
-    flex-wrap: wrap;
+    width: 210px;
+
   }
   &__icon {
     width: 106px;

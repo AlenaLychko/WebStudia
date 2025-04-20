@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href=" ./style.css">
+  <link rel="stylesheet" href="./css/main.css">
  </head>
  <body>
   <header class="header ">
@@ -53,8 +53,15 @@
         <div class="box">
           <div class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні 
             відомості про компанію чи приватну особу.</div>
-
-        <img class="portfolio-img" src=" ./image/imgnout.jpg" alt="photo" width="270" >
+    <picture>
+                <source srcset="./image/imgnout.jpg 1x, ./image/imgnout@2x.jpg 2x" media="min-width:1200px" type="image/jpg">
+                <source srcset="./image/imgnout.jpg 1x, ./image/imgnout@2x.jpg 2x" media="min-width:768px" type="image/jpg">
+                <source srcset="./image/imgnout.jpg 1x, ./image/imgnout@2x.jpg 2x" media="max-width:767px" type="image/jpg">
+        <img class="portfolio-img" 
+        src=" ./image/imgnout.jpg" 
+        alt="photo" 
+        width="270" > 
+      </picture>
     </div>   <h3 class="portfolio-pretitle">технокряк</h3>
         <p class="portfolio-text">веб-сайт</p> 
       </li>
@@ -63,7 +70,15 @@
           <div class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні 
             відомості про компанію чи приватну особу.
         </div>
-        <img  class="portfolio-img" src=" ./image/imgbasket.jpg" alt="photo" width="270">
+         <picture>
+                <source srcset="./image/imgbasket.jpg 1x, ./image/imgbasket@2x.jpg 2x" media="min-width:1200px" type="image/jpg">
+                <source srcset="./image/imgbasket.jpg 1x, ./image/imgbasket@2x.jpg 2x" media="min-width:768px" type="image/jpg">
+                <source srcset="./image/imgbasket.jpg 1x, ./image/imgbasket@2x.jpg 2x" media="max-width:767px" type="image/jpg">
+        <img  class="portfolio-img" 
+        src=" ./image/imgbasket.jpg"
+         alt="photo" 
+         width="270">
+       </picture>
        </div> <h3  class="portfolio-pretitle">Постер New Orlean vs Golden Star</h3>
         <p class="portfolio-text">дизайн</p>
       </li>
@@ -71,8 +86,14 @@
         <div class="box">
           <div class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні 
             відомості про компанію чи приватну особу.</div>
-        
-        <img  class="portfolio-img" src=" ./image/imgfish.jpg" alt="photo" width="270" >
+        <picture>
+                <source srcset="./image/imgfish.jpg 1x, ./image/imgfish@2x.jpg 2x" media="min-width:1200px" type="image/jpg">
+                <source srcset="./image/imgfish.jpg 1x, ./image/imgfish@2x.jpg 2x" media="min-width:768px" type="image/jpg">
+                <source srcset="./image/imgfish.jpg 1x, ./image/imgfish@2x.jpg 2x" media="max-width:767px" type="image/jpg">
+        <img  class="portfolio-img" 
+        src=" ./image/imgfish.jpg" 
+        alt="photo"
+         width="270" > </picture>
        </div> <h3 class="portfolio-pretitle">Ресторан Seafood</h3>
         <p class="portfolio-text">додаток</p>
       </li>
