@@ -1,12 +1,18 @@
 .footer { 
   justify-content: space-between;
   background-color: $bg-color;
-
+ @media (min-width: 768px) and (max-width: 1999px) {
+   justify-content: center;
+  }
 }
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  @media (min-width: 768px) and (max-width: 1999px) {
+   display: flex;
+    align-items: center;
+  }
 }
 .footer-logo {
   font-family: "Raleway";
@@ -17,7 +23,10 @@
   margin-bottom: 20px;
   margin-top: 60px;
   margin-right: 156px;
-  
+   @media (min-width: 768px) and (max-width: 1999px) {
+   display: flex;
+    
+  }
 }
 
 .address-left {

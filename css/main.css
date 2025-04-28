@@ -669,11 +669,22 @@ ul {
   justify-content: space-between;
   background-color: #2f303a;
 }
+@media (min-width: 768px) and (max-width: 1999px) {
+  .footer {
+    justify-content: center;
+  }
+}
 
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+@media (min-width: 768px) and (max-width: 1999px) {
+  .footer-content {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .footer-logo {
@@ -685,6 +696,11 @@ ul {
   margin-bottom: 20px;
   margin-top: 60px;
   margin-right: 156px;
+}
+@media (min-width: 768px) and (max-width: 1999px) {
+  .footer-logo {
+    display: flex;
+  }
 }
 
 .address-left {
